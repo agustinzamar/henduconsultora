@@ -37,7 +37,8 @@
             <a href="{{ route('concepto') }}" class="tituloMenu">CONCEPTO HENDU</a>
 
             @if(Auth::check())
-                <a href="{{ route('novedades.redactar') }}" class="tituloMenu">REDACTAR NOVEDAD</a>
+                <!-- <a href="#" class="tituloMenu">REDACTAR NOVEDAD</a> -->
+                <a target="_blank" href="https://webmail1.hostinger.com.ar/" class="tituloMenu">EMAIL</a>
                 <a href="{{ route('logout') }}" class="tituloMenu">SALIR</a>
             @endif
         </div>
