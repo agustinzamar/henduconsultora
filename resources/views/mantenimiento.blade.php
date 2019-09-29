@@ -5,58 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hendu Consultora</title>
-    <script src="https://kit.fontawesome.com/8fb0187cba.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="{{ asset('css/mantenimiento.css') }}">
 </head>
 <body>
-
-    <style>
-        
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        section{
-            width: 100%;
-            height: 100vh;
-            background-color: #000;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        section .img{
-            width: 100%;
-            height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 5%;
-        }
-
-        section .img img{
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
-        section h1{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 40px;
-            color: #fff;
-            text-transform: uppercase;
-        }
-
-    </style>
     
-    <section>
-        <div class="img">
-            <img src="{{ asset('img/icon.png') }}" alt="">
-        </div>
-        <h1>Sitio en mantenimiento <span><i class="fas fa-wrench"></i></span></h1>
-    </section>
+    <div class="arriba">
+		<img src="{{ asset('img/grua.svg') }}" alt="gruaConstruccion">
+		<h1>Sitio web en construccion</h1>
+		<p>Estamos haciendo grandes cambios para mejorar tu experiencia.</p>
+	</div>
+
+	<div class="abajo">
+		
+		<p>Sitio creado por <a href="https://www.depro.tech" target="_blank" rel="noopener noreferrer">DEPRO</a></p> <br>
+		<p>Contactanos para poder en hacer realidad tus ideas. Creamos tu sitio web a medida, 100% personalizado.</p>
+
+	</div>
 
 </body>
 </html>

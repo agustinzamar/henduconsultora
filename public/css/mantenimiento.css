@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+*{
+	
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+body{
+
+	min-height: 100vh;
+	background: #f2f2f2;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.arriba, .abajo{
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.arriba img{
+
+	width: 500px;
+}
+
+.arriba h1{
+
+	font-size: 62px;
+}
+
+.arriba p{
+
+	font-size: 18px;
+}
+
+.abajo p{
+
+	font-size: 24px;
+}
+
+.abajo a{
+
+	font-family: 'Audiowide', cursive;
+	color: black;
+}
+
+@media screen and (max-width: 800px) {
+
+	.arriba img{
+
+		width: 280px;
+	}
+
+	.arriba h1{
+
+		font-size: 32px;
+	}
+
+	.arriba p{
+
+		font-size: 14px;
+	}
+
+	.abajo p{
+
+		font-size: 18px;
+	}
+
+
+}
